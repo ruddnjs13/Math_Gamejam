@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db1c86fb73be593479ab3375f7ce1e2e, type: 3}
   m_Name: Quiz3
   m_EditorClassIdentifier: 
-  quizInfo: "\uBCF5\uC218\uC218 5+2i\uC758 \uCF24\uB808\uBCF5\uC18C\uC218\uB294?"
-  answer1: 4+2i
-  answer2: 5-i
-  answer3: 7+2i
+  quizInfo: {fileID: 21300000, guid: 2ee9be62b9524db4c907361e8d16544b, type: 3}
+  answer1: -3+4i
+  answer2: 3+2i
+  answer3: 4-2i
   answer4: 5-2i
-  answerIndex: 4
+  answerIndex: 1
