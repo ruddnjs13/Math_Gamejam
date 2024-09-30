@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 
 public class BtnManager : MonoBehaviour
@@ -12,6 +13,11 @@ public class BtnManager : MonoBehaviour
     {
         if (answerIndex == QuizManager.instance.answerIndex)
         {
+            if (QuizManager.instance._quizIndex == 39)
+            {
+                QuizManager.instance.GameClear();
+                return;
+            }
             QuizManager.instance._quizIndex++;
             ScoreManager.instance.SetScore(ScoreManager.instance.currentScore++);
             _selectPanel.SetActive(true);
@@ -29,5 +35,15 @@ public class BtnManager : MonoBehaviour
         QuizManager.instance.SetNewQuiz();
         _wronPanel.SetActive(false);
         _selectPanel.SetActive(false);
+    }
+    public void NextBtn1()
+    {
+        QuizManager.instance.GameOver();
+    }
+    
+
+    public void Retry()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
