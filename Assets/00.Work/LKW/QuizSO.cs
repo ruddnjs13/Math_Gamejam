@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "SO/Quiz")]
 public class QuizSO : ScriptableObject
 {
-   public string quizInfo;
+   public Sprite quizInfo;
    public string answer1;
    public string answer2;
    public string answer3;

@@ -3,11 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
 {
     [SerializeField] public List<QuizSO> quizList;
-    [SerializeField] private TextMeshProUGUI _quizInfo;
+    [SerializeField] private Image _quizInfo;
     [SerializeField] private TextMeshProUGUI _answer1;
     [SerializeField] private TextMeshProUGUI _answer2;
     [SerializeField] private TextMeshProUGUI _answer3;
@@ -32,7 +33,7 @@ public class QuizManager : MonoBehaviour
     private void Start()
     {
         answerIndex = quizList[_quizIndex].answerIndex;
-        _quizInfo.text = quizList[_quizIndex].quizInfo;
+        _quizInfo.sprite = quizList[_quizIndex].quizInfo;
         _answer1.text = quizList[_quizIndex].answer1;
         _answer2.text = quizList[_quizIndex].answer2;
         _answer3.text = quizList[_quizIndex].answer3;
