@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1c86fb73be593479ab3375f7ce1e2e, type: 3}
+  m_Name: Quiz7
+  m_EditorClassIdentifier: 
+  quizInfo: {fileID: 21300000, guid: aaa4118973c484e4bb17c4349f85a0c9, type: 3}
+  answer1: x = 2, x = -4
+  answer2: x = -2, x = 4
+  answer3: x = -4, x = -2
+  answer4: x = 4, x = 2
+  answerIndex: 3
