@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1c86fb73be593479ab3375f7ce1e2e, type: 3}
+  m_Name: Quiz3
+  m_EditorClassIdentifier: 
+  quizInfo: "\uBCF5\uC218\uC218 5+2i\uC758 \uCF24\uB808\uBCF5\uC18C\uC218\uB294?"
+  answer1: 4+2i
+  answer2: 5-i
+  answer3: 7+2i
+  answer4: 5-2i
+  answerIndex: 4
