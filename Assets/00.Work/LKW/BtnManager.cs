@@ -26,7 +26,7 @@ public class BtnManager : MonoBehaviour
         else
         {
             Debug.Log("틀림");
-            _wronPanel.SetActive(false);
+            _wronPanel.SetActive(true);
         }
     }
 
