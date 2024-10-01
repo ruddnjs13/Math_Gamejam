@@ -19,7 +19,7 @@ public class BtnManager : MonoBehaviour
                 return;
             }
             QuizManager.instance._quizIndex++;
-            ScoreManager.instance.SetScore(ScoreManager.instance.currentScore++);
+            ScoreManager.instance.SetScore(++ScoreManager.instance.currentScore);
             _selectPanel.SetActive(true);
             Debug.Log("맞음");
         }
